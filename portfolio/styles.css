@@ -1,0 +1,219 @@
+                    @import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Source+Code+Pro:wght@300&display=swap');
+                    @import url('https://fonts.googleapis.com/css2?family=Hind:wght@500&family=Roboto:wght@500;700&family=Source+Code+Pro:wght@300&display=swap');
+                    * {
+                        margin: 0;
+                        padding: 0;
+                    }
+                    
+                    .sidebar {
+                        background-color: rgb(208, 205, 205);
+                        font-family: 'Hind', sans-serif;
+                        height: 100vh;
+                    }
+                    
+                    .sidebar nav {
+                        padding: 16px;
+                    }
+                    
+                    .sidebar nav li {
+                        list-style: none;
+                        font-size: 20px;
+                        padding: 19px;
+                    }
+                    
+                    .sidebar nav li a {
+                        text-decoration: none;
+                        color: rgb(33, 32, 32);
+                    }
+                    
+                    .main {
+                        width: 85vw;
+                    }
+                    
+                    .container {
+                        display: flex;
+                    }
+                    
+                    .infocontainer {
+                        height: 50vh;
+                        width: 75vw;
+                        margin: 127px auto;
+                        display: flex;
+                        justify-content: space-around;
+                    }
+                    
+                    .devinfo {
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                    }
+                    
+                    .hello {
+                        font-size: 55px;
+                    }
+                    
+                    .name {
+                        font-size: 35px;
+                        font-weight: bold;
+                    }
+                    
+                    .about {
+                        font-size: 20px;
+                    }
+                    
+                    .buttons {
+                        margin-top: 28px;
+                    }
+                    
+                    .btn {
+                        padding: 6px 10px;
+                        border-radius: 15px;
+                        color: white;
+                        background-color: dodgerblue;
+                        font-weight: bold;
+                        font-size: 12px;
+                        margin: 0 3px;
+                        cursor: pointer;
+                    }
+                    
+                    .btn-sm {
+                        font-size: 10px;
+                    }
+                    
+                    .btn:hover {
+                        color: dodgerblue;
+                        background-color: white;
+                    }
+                    
+                    .devpic img {
+                        height: 50vh;
+                    }
+                    
+                    .contactform {
+                        padding: 0 34px;
+                        padding-top: 144px;
+                        font-family: 'Hind', sans-serif;
+                    }
+                    
+                    .contactform h1 {
+                        text-align: center;
+                    }
+                    
+                    .contactform form div {
+                        padding: 10px 0;
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    
+                    .contactform form div input {
+                        width: 25vw;
+                        border-radius: 5px;
+                        margin: 6px 0;
+                        padding: 3px;
+                    }
+                    
+                    .form-check-input {
+                        display: flex;
+                        flex-direction: row;
+                    }
+                    
+                    #emailHelp {
+                        font-size: 11px;
+                        color: midnightblue;
+                        margin: 0 5px;
+                    }
+                    
+                    .blogitem {
+                        margin: 20px;
+                        font-family: 'Hind', sans-serif;
+                    }
+                    
+                    h1 {
+                        margin: 23px 20px;
+                    }
+                    
+                    p {
+                        font-family: 'Hind', sans-serif;
+                    }
+                    
+                    .intro h2 {
+                        margin: 12px;
+                    }
+                    
+                    .intro h4 {
+                        margin: 12px;
+                    }
+                    
+                    .intro p {
+                        font-family: 'Hind', sans-serif;
+                        margin: 12px;
+                    }
+                    
+                    .skillcontainr {
+                        padding: 12px;
+                    }
+                    
+                    .skillitem {
+                        display: flex;
+                        align-items: center;
+                    }
+                    
+                    .skill {
+                        width: 256px;
+                        height: 6px;
+                        background-color: red;
+                    }
+                    
+                    .t {
+                        width: 256px;
+                        background-color: yellow;
+                    }
+                    
+                    .t5 {
+                        width: 125px;
+                        background-color: red;
+                    }
+                    
+                    .t7 {
+                        width: 220px;
+                        background-color: rgb(255, 136, 0);
+                    }
+                    
+                    .t6 {
+                        width: 200px;
+                        background-color: rgb(255, 89, 0);
+                    }
+                    
+                    .t8 {
+                        width: 240px;
+                        background-color: rgb(241, 196, 14);
+                    }
+                    
+                    .t9 {
+                        width: 250px;
+                        background-color: rgb(241, 196, 14);
+                    }
+                    
+                    .sidebargo {
+                        transform: translate(-443px, 0px);
+                        position: absolute;
+                    }
+                    
+                    .hamburger {
+                        position: absolute;
+                        cursor: pointer;
+                        top: 10px;
+                        left: 10px;
+                    }
+                    
+                    .cross {
+                        margin-left: 104px;
+                    }
+                    
+                    @media(max-width:1250px) {
+                        /* .sidebar {
+                    transform: translate(-443px, 0px);
+                    position: absolute;
+                }*/
+                    }
